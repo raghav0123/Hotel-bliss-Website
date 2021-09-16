@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Mystore | Ecommerce Website Design</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-1 g1">
+            <div class="part-1">
+                <div class="navbar">
+
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="website.html">Home</a></li>
+                            <li><a href="gallery.html" class="ga">Gallery</a></li>
+                            <li><a href="about-1.html">About</a></li>
+                            <li><a href="reservation.html">Reservation</a></li>
+                            
+                            <li><a href="login.html" class=" acontact"><i class="fa fa-user"></i></a></li>
+                  </ul>
+                </nav>
+               
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()" height="25px" width="25px" >
+
+
+
+                </div>
+                <hr>
+            </div>
+            <div class="part-2">
+                <p></p>
+                <p class="big">Gallery</p>
+            </div>
+            <div class="part-3">
+                <hr class="sline">
+            </div>
+        </div>
+        <div class=" g2">
+
+            <div class="gcont-1">
+                <div class="gtext-1">
+
+                    <img src="hotel-6.jpg" class="gall-img2 gall-img2-1">
+
+                </div>
+                <div class="gtext-2">
+                    <img src="hotel-3.jpg" class="gall-img2">
+                </div>
+            </div>
+            <div class=" gcont-2">
+                <div class="gtext-1">
+
+                    <img src="hotel-7.jpg" class="gall-img2">
+
+                </div>
+                <div class="gtext-2">
+                    <img src="hotel-4.jpg" class="gall-img2">
+                </div>
+               
+
+        </div>
+    </div>
+
+</body>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle() {
+      if (MenuItems.style.maxHeight = "0px") {
+        MenuItems.style.maxHeight = "200px"
+      }
+      else {
+        MenuItems.style.maxHeight = "0px"
+      }
+    }
+  </script>
+  </html>

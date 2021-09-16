@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale-1.0">
+  <title>Mystore | Ecommerce Website Design</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container-1 ">
+      <div class="part-1">
+        <div class="navbar">
+
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="website.html" class="wa">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about-1.html">About</a></li>
+              <li><a href="reservation.html">Reservation</a></li>
+
+              <li><a href="login.html" class=" acontact"><i class="fa fa-user"></i></a></li>
+
+            </ul>
+          </nav>
+
+          <img src="menu.png" class="menu-icon" onclick="menutoggle()" height="25px" width="25px">
+
+
+
+        </div>
+        <hr>
+      </div>
+      <div class="part-2">
+        <p>HOTEL</p>
+        <p class="big">B L I S S</p>
+      </div>
+      <div class="part-3">
+        <hr class="sline">
+      </div>
+    </div>
+    <div class="wcontainer-2">
+      <div class="cont-1">
+        <div class="address">+370 5 2770000<br>
+          BOOKINGS@HOTEL.COM</div>
+      </div>
+      <div class="cont-2">
+        <div class="text-1">
+          <div class="rates"><span CLASS="text-1heading">Heading</span><br><span class="lorem">Lorem Ipsum is simply
+              dummy text<br> of the printing and typesetting <br>industry.</span>
+          </div>
+
+        </div>
+        <div class="text-2">
+          <div class="rates"><span CLASS="text-1heading">Heading</span><br><span class="lorem">Lorem Ipsum is simply
+              dummy text<br> of the printing and typesetting <br>industry.</span>
+          </div>
+        </div>
+        <div class="text-3">
+          <div class="rates"><span CLASS="text-1heading">Heading</span><br><span class="lorem">Lorem Ipsum is simply
+              dummy text<br> of the printing and typesetting <br>industry.</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!---js for toggle menu--->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle() {
+      if (MenuItems.style.maxHeight = "0px") {
+        MenuItems.style.maxHeight = "200px"
+      }
+      else {
+        MenuItems.style.maxHeight = "0px"
+      }
+    }
+  </script>
+
+  <!----js for product gallery-->
+
+</body>
